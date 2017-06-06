@@ -1,0 +1,149 @@
+{
+	"meta": {
+		"format": "FRESH@0.6.0",
+		"version": "0.4.0"
+	},
+
+	"name":"Sam O'Brien",
+
+	"info": {
+		"label": "Software Engineer Team Lead",
+		"class": "Software Engineer",
+		"brief": "**Principal full-stack engineer with product ownership & team lead responsibilities** focused on leading by example, coordination & continuous code integration, forward thinking design & innovation, best practices and continuous improvement following the Kaizen principle",
+		"quote": "If it's worth doing it's worth designing"
+	},
+
+	"contact": {
+		"website": "https://github.com/samjamesobrien",
+		"phone": "+353 (0)86 061 8856",
+		"email": "samjamesobrien@gmail.com",
+		"other" : [
+
+		]
+	},
+
+	"location": {
+		"address": "Sam O'Brien\n21 Block A\nSmithfield Market\nDublin 7\nDublin",
+		"city": "Dublin",
+		"region": "County Dublin",
+		"code": "D7",
+		"country": "Ireland"
+	},
+
+	"employment": {
+		"summary": "7 years of design, leadership and software engineering experience",
+		"history": [
+			{
+				"employer": "VSware / Visma",
+				"url": "https://www.visma.com/",
+				"position": "Senior software engineer",
+				"summary": "Senior full-stack engineer with product ownership, team lead & development responsibilities. This role includes overseas travel to meet with 3rd party services for API negotiations, writing and managing stories from requirements to completion, managing development resources and several solo-developed revenue generating micro-services. I also pushed for and introduced effective data validation patterns: On the JS side, REST API validation and tightly constrained DB cardinality leading to very high quality data and natural prevention of bad states.",
+				"start": "2015-06",	// todo
+				"keywords": ["Agile", "PM", "java", "maven", "sbt", "saml", "oauth", "spring", "play", "dropwizard", "spring boot", "scala", "kotlin", "ruby", "chef", "ops", "mysql", "cassandra", "activator", "akka", "domain driven design", "leadership", "stakeholder management"],
+				"highlights": ["Solo-developer of a revenue generating micro-service based integration with Microsoft Active Directory and Office 365 with yearly subscription fee of 1-2k per customer depending on features", "Lead developer & Product owner of a major piece of employee planning and cost management software developed with a team of 5, managing dynamic requirements changes. Featuring strict validation, natural cardinality, persistent programming patterns, caching and completely validated DTOs in Spring, JSP, Rivets and MySql", "Product owner of all 3rd party integrations including Oauth & Saml 2.0 authenticated single sign on, and data importation and marshalling", "Pushed new validation and development patterns focused on the Kaizen principle of continuous improvement which were widely adopted by the team"]
+			},
+			{
+				"employer": "Logentries",
+				"url": "https://logentries.com/",
+				"position": "Software Engineer",
+				"summary": "Developer focused on backend services including developing the in-house query language, metrics retrieval, validated REST API exposure etc. in an Agile environment",
+				"start": "2013-06",
+				"end": "2015-05",
+				"keywords": ["Agile", "java", "maven", "sbt", "oauth", "dropwizard", "netty", "spring boot", "scala", "kotlin", "ruby", "chef", "ops", "mysql", "cassandra", "activator", "akka", "domain driven design", "leadership", "stakeholder management"],
+				"highlights": ["Developed a parser and query language to access the log data API", "Produced a high quality validated and acceptance tested externally exposed API"]
+			},
+			{
+				"employer": "Farm from a Box",
+				"url": ""	// todo
+			},
+			{
+
+			},
+			{
+
+			}
+		]
+	},
+
+	"projects": [
+		{
+			"title": "RE2 for java",
+			"category": "FOSS",
+			"role": "contributor",
+			"url": "https://github.com/rapid7/re2-java",
+			"repo": "https://github.com/rapid7/re2-java",
+			"description": "The first JNI port of Google's C++ RE2 library, now in maintenance only mode due to Google's release of an equivalent library.",
+			"summary": "Implemented named capture groups as an extension of indexed capture groups in the library to facilitate same in Logentries query language.",
+			"keywords": ["java", "C++", "JNI", "RE2", "REGEX"]
+		},
+		{
+			"title": "trade-processor"
+			// todo
+		},
+		{
+			"title": "secret side project"
+		}
+	],
+
+	"skills": [ /* Skills and technologies */ ],
+
+	"education": {
+		"summary": "",
+		"level": "Masters degree",
+		"degree": "B.Sc Architectural Science & M.Sc Computer Science",
+		"history": [
+			{
+				"institution": "University College Dublin",
+				"title": "M.Sc Computer Science",
+				"url": "https://www.ucd.ie/",
+				"start": "2005-09",	// todo
+				"end": "2008-05",	// todo
+				"grade": "4.0",
+				"summary": "1st class Honors degree in Computer Science.",
+				"curriculum": ["Java", "C", "C++", "Ruby", "Database design", "Software Engineering", "Natural language processing", "Search aggregation & N-Dimensional clustering"]
+			},
+			{
+				"institution": "University College Dublin",
+				"title": "B.Sc Architectural Science",
+				"url": "https://www.ucd.ie/",
+				"start": "2005-09",	// todo
+				"end": "2008-05"	// todo
+			}
+		]
+	},
+
+	"affiliation": { /* Clubs, groups, and associations */ },
+
+	"service": { /* Volunteer, military, civilian service */ },
+
+	"disposition": { /* Disposition towards work, relocation, schedule */ },
+
+	"writing": [ /* Writing, blogging, and publications */ ],
+
+	"reading": [ /* Books and publication a la StackOverflow Careers */ ],
+
+	"speaking": [ /* Writing, blogging, and publications */ ],
+
+	"governance": [ /* Board memberships, committees, standards groups */ ],
+
+	"recognition": [ /* Awards and commendations */ ],
+
+	"samples": [ /* Work samples and portfolio pieces */ ],
+
+	"social": [ /* Social networking & engagement */ ],
+
+	"references": [ /* Candidate references */ ],
+
+	"testimonials": [ /* Public candidate testimonials */ ],
+
+	"extracurricular": [ /* Interests & hobbies */ ],
+
+	"interests": [ /* Interests & hobbies */ ],
+
+	"languages": [
+		{
+			"language": "English",
+			"level": "Native"
+		}
+	]
+}
