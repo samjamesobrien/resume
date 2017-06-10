@@ -38,8 +38,8 @@
 				"url": "https://www.visma.com/",
 				"position": "Senior software engineer",
 				"summary": "Senior full-stack engineer with product ownership, team lead & development responsibilities. This role includes overseas travel to meet with 3rd party services for API negotiations, writing and managing stories from requirements to completion, managing development resources and several solo-developed revenue generating micro-services. I also pushed for and introduced effective data validation patterns: On the JS side, REST API validation and tightly constrained DB cardinality leading to very high quality data and natural prevention of bad states.",
-				"start": "2015-06",	// todo
-				"keywords": ["Agile", "PM", "java", "maven", "sbt", "saml", "oauth", "spring", "play", "dropwizard", "spring boot", "scala", "kotlin", "ruby", "chef", "ops", "mysql", "cassandra", "activator", "akka", "domain driven design", "leadership", "stakeholder management"],
+				"start": "2015-07",
+				"keywords": ["Agile", "PM", "java", "maven", "sbt", "saml", "oauth", "spring", "play", "dropwizard", "spring boot", "scala", "kotlin", "ruby", "chef", "ops", "sql", "mysql", "cassandra", "activator", "akka", "domain driven design", "leadership", "stakeholder management"],
 				"highlights": ["Solo-developer of a revenue generating micro-service based integration with Microsoft Active Directory and Office 365 with yearly subscription fee of 1-2k per customer depending on features", "Lead developer & Product owner of a major piece of employee planning and cost management software developed with a team of 5, managing dynamic requirements changes. Featuring strict validation, natural cardinality, persistent programming patterns, caching and completely validated DTOs in Spring, JSP, Rivets and MySql", "Product owner of all 3rd party integrations including Oauth & Saml 2.0 authenticated single sign on, and data importation and marshalling", "Pushed new validation and development patterns focused on the Kaizen principle of continuous improvement which were widely adopted by the team"]
 			},
 			{
@@ -47,20 +47,42 @@
 				"url": "https://logentries.com/",
 				"position": "Software Engineer",
 				"summary": "Developer focused on backend services including developing the in-house query language, metrics retrieval, validated REST API exposure etc. in an Agile environment",
-				"start": "2013-06",
-				"end": "2015-05",
-				"keywords": ["Agile", "java", "maven", "sbt", "oauth", "dropwizard", "netty", "spring boot", "scala", "kotlin", "ruby", "chef", "ops", "mysql", "cassandra", "activator", "akka", "domain driven design", "leadership", "stakeholder management"],
+				"start": "2014-05",
+				"end": "2015-07",
+				"keywords": ["Agile", "java", "maven", "sbt", "oauth", "dropwizard", "netty", "spring boot", "scala", "kotlin", "ruby", "chef", "ops", "sql", "mysql", "cassandra", "activator", "akka", "domain driven design", "leadership", "stakeholder management"],
 				"highlights": ["Developed a parser and query language to access the log data API", "Produced a high quality validated and acceptance tested externally exposed API"]
 			},
 			{
+				"employer": "Flanagan Architects",
+				"url": "http://www.flanaganarchitects.ie/",
+				"position": "Draughtsman & Administration",
+				"summary": "Contract for project in London, draughtsman, coordination and administration responsibilities.",
+				"start": "2012-02",
+				"end": "2012-08"
+			},
+			{
 				"employer": "Farm from a Box",
-				"url": ""	// todo
+				"url": "http://www.farmfromabox.com/",
+				"summary": "Coordinating a team of 7 volunteers to produce an initial set of designs for a modular farming solution for disaster relief.",
+				"position": "Design team lead",
+				"start": "2011-02",
+				"end": "2012-01",
+				"keywords": ["Design", "leadership", "administration"]
 			},
 			{
-
+				"employer": "3D Architects",
+				"position": "Draughtsman & Administration",
+				"summary": "Work included producing planning permission and other legal applications, design and technical documentation to strict legal & design requirements.",
+				"start": "2010-07",
+				"end": "2011-01"
 			},
 			{
-
+				"employer": "Flanagan Architects",
+				"url": "http://www.flanaganarchitects.ie/",
+				"position": "Draughtsman & Administration",
+				"summary": "Work included producing planning permission and other legal applications, design and technical documentation to strict legal & design requirements.",
+				"start": "2007-06",
+				"end": "2008-06"
 			}
 		]
 	},
@@ -78,14 +100,30 @@
 		},
 		{
 			"title": "trade-processor"
-			// todo
 		},
 		{
 			"title": "secret side project"
 		}
 	],
 
-	"skills": [ /* Skills and technologies */ ],
+	"skills": {
+		"sets": [
+			{
+				"name": "Backend web development",
+				"level": "advanced",
+				"skills": [
+					"Spring", "Spring boot", "Dropwizard", "Play", "Jackson", "Netty", "Jetty", "Akka",
+					"Servlets", "Tomcat", "SQL", "No SQL", "Database normalisation", "Schema design",
+					"Cassandra", "h2", "mySql"
+				]
+			}
+		],
+		"list": [
+			{
+
+			}
+		]
+	},
 
 	"education": {
 		"summary": "",
@@ -96,8 +134,8 @@
 				"institution": "University College Dublin",
 				"title": "M.Sc Computer Science",
 				"url": "https://www.ucd.ie/",
-				"start": "2005-09",	// todo
-				"end": "2008-05",	// todo
+				"start": "2012-09",
+				"end": "2014-01",
 				"grade": "4.0",
 				"summary": "1st class Honors degree in Computer Science.",
 				"curriculum": ["Java", "C", "C++", "Ruby", "Database design", "Software Engineering", "Natural language processing", "Search aggregation & N-Dimensional clustering"]
@@ -106,8 +144,8 @@
 				"institution": "University College Dublin",
 				"title": "B.Sc Architectural Science",
 				"url": "https://www.ucd.ie/",
-				"start": "2005-09",	// todo
-				"end": "2008-05"	// todo
+				"start": "2006-09",
+				"end": "2010-07"
 			}
 		]
 	},
