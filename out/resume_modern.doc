@@ -1067,7 +1067,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>contributor, </w:t>
+        <w:t>Contributor, </w:t>
       </w:r>
       <w:hlink w:dest="https://github.com/rapid7/re2-java">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -1109,13 +1109,16 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>, </w:t>
+        <w:t>Creator, </w:t>
       </w:r>
-      
+      <w:hlink w:dest="https://github.com/samjamesobrien/trade_processor">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
           <w:t>trade-processor</w:t>
         </w:r>
-      
+      </w:hlink>
       <w:r wsp:rsidR="00EA0B64">
         <w:tab/>
       </w:r>
@@ -1132,7 +1135,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      
+      <w:r><w:rPr></w:rPr><w:t>Heroku deployable Dropwizard application using db migration, web-sockets, rate-limiting and meta-data analysis.</w:t></w:r>
     </w:p>
 
 
@@ -1148,11 +1151,11 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>, </w:t>
+        <w:t>Creator, </w:t>
       </w:r>
       
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>secret side project</w:t>
+          <w:t>Full-stack SAAS messaging and NLP project</w:t>
         </w:r>
       
       <w:r wsp:rsidR="00EA0B64">
@@ -1171,7 +1174,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      
+      <w:r><w:rPr></w:rPr><w:t>Full stack SAAS project using Spring Boot, Play, Cassandra, MySql, Liquibase, jsp and Vue.js</w:t></w:r>
     </w:p>
 
 

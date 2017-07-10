@@ -3,9 +3,9 @@ meta:
   version: 0.4.0
 name: 'Sam O''Brien'
 info:
-  label: 'Software Engineer Team Lead'
+  label: 'Software Engineer'
   class: 'Software Engineer'
-  brief: '**Principal full-stack engineer with product ownership & team lead responsibilities** focused on leading by example, coordination & continuous code integration, forward thinking design & innovation, best practices and continuous improvement following the Kaizen principle'
+  brief: '**Full-stack engineer with product ownership & team lead responsibilities** focused on leading by example, active co-ordination & continuous integration, forward thinking design & innovation, best practices and continuous improvement following the Kaizen principle'
   quote: 'If it''s worth doing it''s worth designing'
 contact:
   website: 'https://github.com/samjamesobrien'
@@ -19,7 +19,7 @@ location:
   code: D7
   country: Ireland
 employment:
-  summary: '7 years of design, leadership and software engineering experience'
+  summary: '7 years of combined design, leadership and software engineering experience'
   history:
     -
       employer: 'VSware / Visma'
@@ -123,8 +123,8 @@ employment:
 projects:
   -
     title: 'RE2 for java'
-    category: FOSS
-    role: contributor
+    category: 'Open Source'
+    role: Contributor
     url: 'https://github.com/rapid7/re2-java'
     repo: 'https://github.com/rapid7/re2-java'
     description: 'The first JNI port of Google''s C++ RE2 library, now in maintenance only mode due to Google''s release of an equivalent library.'
@@ -137,8 +137,33 @@ projects:
       - REGEX
   -
     title: trade-processor
+    url: 'https://github.com/samjamesobrien/trade_processor'
+    repo: 'https://github.com/samjamesobrien/trade_processor'
+    category: 'Personal Project'
+    role: Creator
+    summary: 'Heroku deployable Dropwizard application using db migration, web-sockets, rate-limiting and meta-data analysis.'
+    description: "Produced as part of a coding challenge, this is a heroku deployable stand-alone jar which features a simple html front-end connecting to a web-socket to extract meta-data about trading messages.\nThe UI updates automatically with the changing data via the socket.\nFlyway was used for migration and the project is set up to deploy to Heroku & run Flyway via a maven goal."
+    keywords:
+      - java
+      - Dropwizard
+      - 'web sockets'
+      - Flyway
+      - Heroku
+      - MySql
   -
-    title: 'secret side project'
+    title: 'Full-stack SAAS messaging and NLP project'
+    category: 'Personal Project'
+    role: Creator
+    repo: 'private repo available to view by request'
+    description: "Web-application with Spring boot for security, roles and .jsp processing, Play application for message ingestion and retrieval, Liquibase for DB migration.\nCurrently facilitates storage and retrieval of messages & a pre-defined lexicon, user log in & roles etc.\nIt is planned that this project will feature a Cassandra DB for message retrieval optimised for target and sender UUID indexing by separate tables. Cassandras ordered index keys combined with a timestamp key will allow fast retrieval of messages for a given sender for a time frame and for a given receiver for a given timeframe. This optimisation due to the TRIE like structure of Cassandra nodes requires two seperate tables.\nIt is planned to perform sentiment analysis on messages post natural language processing, tokenisation and storage of TF/IDF vectors.\nMonetization strategies include premium messaging features & API exposure for the NLP & Sentiment analysis mechanisms.\nHosting will allow horizontal scaling and automation, I plan to use Digital Ocean for this project and will have to identify suitable tools at that stage."
+    summary: 'Full stack SAAS project using Spring Boot, Play, Cassandra, MySql, Liquibase, jsp and Vue.js'
+    keywords:
+      - java
+      - Spring
+      - Vue.js
+      - Liquibase
+      - Cassandra
+      - Play
 skills:
   sets:
     -
