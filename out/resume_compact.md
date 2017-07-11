@@ -47,19 +47,19 @@ Work included producing planning permission and other legal applications, design
 
 ## PROJECTS
 
-### *Contributor*, [RE2 for java](https://github.com/rapid7/re2-java) (??? — Present)
+### *Contributor*, [RE2 for java](https://github.com/rapid7/re2-java) (2014-01 — 2015-01)
 
 The first JNI port of Google's C++ RE2 library, now in maintenance only mode due to Google's release of an equivalent library.
 Implemented named capture groups as an extension of indexed capture groups in the library to facilitate same in Logentries query language.
 
-### *Creator*, [trade-processor](https://github.com/samjamesobrien/trade_processor) (??? — Present)
+### *Creator*, [trade-processor](https://github.com/samjamesobrien/trade_processor) (2015-01 — 2015-01)
 
 Produced as part of a coding challenge, this is a heroku deployable stand-alone jar which features a simple html front-end connecting to a web-socket to extract meta-data about trading messages.
 The UI updates automatically with the changing data via the socket.
 Flyway was used for migration and the project is set up to deploy to Heroku and run Flyway via a maven goal.
 Heroku deployable Dropwizard application using db migration, web-sockets, rate-limiting and meta-data analysis.
 
-### *Creator*, Full-stack SAAS messaging and NLP project (??? — Present)
+### *Creator*, Full-stack SAAS messaging and NLP project (2017-03 — Present)
 
 Web-application with Spring boot for security, roles and .jsp processing, Play application for message ingestion and retrieval, Liquibase for DB migration.
 Currently facilitates storage and retrieval of messages and a pre-defined lexicon, user log in and roles etc.
@@ -92,13 +92,10 @@ Full stack SAAS project using Spring Boot, Play, Cassandra, MySql, Liquibase, js
 
 ## REFERENCES
 
-### *Chris Mowforth*
+### *Chris Mowforth*, Senior Engineer - Rapid 7 | chris@mowforth.com (professional)
 personal email: chris@mowforth.com
 
-### *Kenneth Morrison*
+### *Kenneth Morrison*, Principal - Morrison Consulting | kmorrison@morrisonconsulting.com (personal)
 personal email: kmorrison@morrisonconsulting.com
-
-### *Damian Dalton*
-work email: damian.dalton@ucd.ie
 
 

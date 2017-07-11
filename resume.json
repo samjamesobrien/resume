@@ -89,6 +89,8 @@
 
 	"projects": [
 		{
+			"start": "2014",
+			"end": "2015",
 			"title": "RE2 for java",
 			"category": "Open Source",
 			"role": "Contributor",
@@ -99,6 +101,8 @@
 			"keywords": ["java", "C++", "JNI", "RE2", "REGEX"]
 		},
 		{
+			"start": "2015",
+			"end": "2015",
 			"title": "trade-processor",
 			"url": "https://github.com/samjamesobrien/trade_processor",
 			"repo": "https://github.com/samjamesobrien/trade_processor",
@@ -109,6 +113,7 @@
 			"keywords": ["java", "Dropwizard", "web sockets", "Flyway", "Heroku", "MySql"]
 		},
 		{
+			"start": "2017-03",
 			"title": "Full-stack SAAS messaging and NLP project",
 			"category": "Personal Project",
 			"role": "Creator",
@@ -184,37 +189,27 @@
 	"references": [
 		{
 			"name": "Chris Mowforth",
-			"flavor": "Senior Engineer - Rapid 7",
+			"role": "Senior Engineer - Rapid 7 | chris@mowforth.com",
+			"category": "professional",
 			"private": false,
 			"contact": [
 				{
 					"label": "personal email",
-					"flavor": "email",
+					"category": "email",
 					"value": "chris@mowforth.com"
 				}
 			]
 		},
 		{
 			"name": "Kenneth Morrison",
-			"flavor": "Principal - Morrison Consulting",
+			"role": "Principal - Morrison Consulting | kmorrison@morrisonconsulting.com",
+			"category": "personal",
 			"private": false,
 			"contact": [
 				{
 					"label": "personal email",
-					"flavor": "email",
+					"category": "email",
 					"value": "kmorrison@morrisonconsulting.com"
-				}
-			]
-		},
-		{
-			"name": "Damian Dalton",
-			"flavor": "Director MSc. Computer Science, Senior Lecturer - UCD",
-			"private": true,
-			"contact": [
-				{
-					"label": "work email",
-					"flavor": "email",
-					"value": "damian.dalton@ucd.ie"
 				}
 			]
 		}
