@@ -59,7 +59,7 @@ The UI updates automatically with the changing data via the socket.
 Flyway was used for migration and the project is set up to deploy to Heroku and run Flyway via a maven goal.
 Heroku deployable Dropwizard application using db migration, web-sockets, rate-limiting and meta-data analysis.
 
-### *Creator*, Full-stack SAAS messaging and NLP project (2017-03 — Present)
+### *Creator*, [private repo] Full-stack SAAS messaging and NLP project (2017-03 — Present)
 
 Web-application with Spring boot for security, roles and .jsp processing, Play application for message ingestion and retrieval, Liquibase for DB migration.
 Currently facilitates storage and retrieval of messages and a pre-defined lexicon, user log in and roles etc.
