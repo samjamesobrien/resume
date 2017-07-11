@@ -1,7 +1,7 @@
 Sam O&#x27;Brien
 ============
 Email: samjamesobrien@gmail.com
-Tel: +353 (0)86 061 8856
+
 Web: https://github.com/samjamesobrien
 
 **Full-stack engineer with product ownership and team lead responsibilities** focused on leading by example, active co-ordination and continuous integration, forward thinking design and innovation, best practices and continuous improvement following the Kaizen principle

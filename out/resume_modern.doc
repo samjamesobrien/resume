@@ -510,7 +510,7 @@
           <w:rPr>
             <w:sz w:val="16"/>
           </w:rPr>
-          <w:t>+353 (0)86 061 8856<w:br/></w:t>
+          <w:t><w:br/></w:t>
         </w:r>
         <w:hlink w:dest="https://github.com/samjamesobrien">
           <w:r wsp:rsidRPr="003876BF">
