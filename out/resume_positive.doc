@@ -479,7 +479,7 @@
           <w:rPr>
             <w:color w:val="DADADA"/>
           </w:rPr>
-          <w:t>Software Engineer Team Lead</w:t>
+          <w:t>Software Engineer</w:t>
         </w:r>
       </w:p>
       <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="00505903" wsp:rsidP="00C146CA">
@@ -530,7 +530,7 @@
         <w:pPr>
           <w:pStyle w:val="Summary"/>
         </w:pPr>
-        <w:r><w:rPr><w:b/></w:rPr><w:t>Principal full-stack engineer with product ownership &amp; team lead responsibilities</w:t></w:r><w:r><w:rPr></w:rPr><w:t> focused on leading by example, coordination &amp; continuous code integration, forward thinking design &amp; innovation, best practices and continuous improvement following the Kaizen principle</w:t></w:r>
+        <w:r><w:rPr><w:b/></w:rPr><w:t>Full-stack engineer with product ownership and team lead responsibilities</w:t></w:r><w:r><w:rPr></w:rPr><w:t> focused on leading by example, active co-ordination and continuous integration, forward thinking design and innovation, best practices and continuous improvement following the Kaizen principle</w:t></w:r>
       </w:p>
       <wx:sub-section>
   <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
@@ -582,7 +582,81 @@
               <w:caps/>
               <w:spacing w:val="22"/>
             </w:rPr>
-            <w:t>Spring  Spring boot  Dropwizard  Play  Jackson  Netty  Jetty  Akka  Servlets  Tomcat  SQL  No SQL  Database normalisation  Schema design  Cassandra  h2  mySql</w:t>
+            <w:t>Spring  Spring boot  Spring beans  Dropwizard  Play  Jackson  Netty  Jetty  Akka  Servlets  Tomcat  SQL  No SQL  Database normalisation  Schema design  Natural cardinality  Cassandra  h2  mySql  Guice  IOC  AOP  JNI  Java  JVM</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:pPr>
+            <w:jc w:val="right"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:color w:val="989898"/>
+            </w:rPr>
+            <w:t>Front web development</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:spacing w:val="22"/>
+            </w:rPr>
+            <w:t>Vue.js  PEG.js  .jsp  bower  yarn  npm  node.js  html  css  bootstrap</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+    </w:tr>
+
+
+    <w:tr wsp:rsidR="00427ECC" wsp:rsidTr="00FD3B33">
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="3000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:pPr>
+            <w:jc w:val="right"/>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:color w:val="989898"/>
+            </w:rPr>
+            <w:t>Ops</w:t>
+          </w:r>
+        </w:p>
+      </w:tc>
+      <w:tc>
+        <w:tcPr>
+          <w:tcW w:w="8000" w:type="dxa"/>
+          <w:shd w:val="clear" w:color="auto" w:fill="auto"/>
+        </w:tcPr>
+        <w:p wsp:rsidR="00427ECC" wsp:rsidRDefault="00427ECC" wsp:rsidP="00427ECC">
+          <w:r>
+            <w:rPr>
+              <w:caps/>
+              <w:spacing w:val="22"/>
+            </w:rPr>
+            <w:t>Jenkins  bash  midnight commander  ssh  apache benchmark  maven  database migration  Liquibase  Flyway  Heroku  AWS  Linux  Chef  SQS</w:t>
           </w:r>
         </w:p>
       </w:tc>
@@ -654,7 +728,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Senior full-stack engineer with product ownership, team lead &amp; development responsibilities. This role includes overseas travel to meet with 3rd party services for API negotiations, writing and managing stories from requirements to completion, managing development resources and several solo-developed revenue generating micro-services. I also pushed for and introduced effective data validation patterns: On the JS side, REST API validation and tightly constrained DB cardinality leading to very high quality data and natural prevention of bad states.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Senior full-stack engineer with product ownership, team lead and development responsibilities. This role includes overseas travel to meet with 3rd party services for API negotiations, writing and managing stories from requirements to completion, managing development resources and several solo-developed revenue generating micro-services. I also pushed for and introduced effective data validation patterns: On the JS side, REST API validation and tightly constrained DB cardinality leading to very high quality data and natural prevention of bad states.</w:t></w:r>
     </w:p>
 
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
@@ -685,7 +759,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Lead developer &amp; Product owner of a major piece of employee planning and cost management software developed with a team of 5, managing dynamic requirements changes. Featuring strict validation, natural cardinality, persistent programming patterns, caching and completely validated DTOs in Spring, JSP, Rivets and MySql</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Lead developer and Product owner of a major piece of employee planning and cost management software developed with a team of 5, managing dynamic requirements changes. Featuring strict validation, natural cardinality, persistent programming patterns, caching and completely validated DTOs in Spring, JSP, Rivets and MySql</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -700,7 +774,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Product owner of all 3rd party integrations including Oauth &amp; Saml 2.0 authenticated single sign on, and data importation and marshalling</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Product owner of all 3rd party integrations including Oauth and Saml 2.0 authenticated single sign on, and data importation and marshalling</w:t></w:r>
     </w:p>
     <w:p wsp:rsidR="00C146CA" wsp:rsidRDefault="009452CA" wsp:rsidP="00C146CA">
       <w:pPr>
@@ -802,7 +876,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Draughtsman &amp;amp; Administration, </w:t>
+        <w:t>Draughtsman and Administration, </w:t>
       </w:r>
       <w:hlink w:dest="http://www.flanaganarchitects.ie/">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -886,7 +960,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Draughtsman &amp;amp; Administration, </w:t>
+        <w:t>Draughtsman and Administration, </w:t>
       </w:r>
       
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -909,7 +983,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Work included producing planning permission and other legal applications, design and technical documentation to strict legal &amp; design requirements.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Work included producing planning permission and other legal applications, design and technical documentation to strict legal and design requirements.</w:t></w:r>
     </w:p>
 
 
@@ -925,7 +999,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>Draughtsman &amp;amp; Administration, </w:t>
+        <w:t>Draughtsman and Administration, </w:t>
       </w:r>
       <w:hlink w:dest="http://www.flanaganarchitects.ie/">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -951,7 +1025,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      <w:r><w:rPr></w:rPr><w:t>Work included producing planning permission and other legal applications, design and technical documentation to strict legal &amp; design requirements.</w:t></w:r>
+      <w:r><w:rPr></w:rPr><w:t>Work included producing planning permission and other legal applications, design and technical documentation to strict legal and design requirements.</w:t></w:r>
     </w:p>
 
 
@@ -996,7 +1070,7 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>contributor, </w:t>
+        <w:t>Contributor, </w:t>
       </w:r>
       <w:hlink w:dest="https://github.com/rapid7/re2-java">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
@@ -1038,13 +1112,16 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>, </w:t>
+        <w:t>Creator, </w:t>
       </w:r>
-      
+      <w:hlink w:dest="https://github.com/samjamesobrien/trade_processor">
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
+          <w:rPr>
+            <w:rStyle w:val="Hyperlink"/>
+          </w:rPr>
           <w:t>trade-processor</w:t>
         </w:r>
-      
+      </w:hlink>
       <w:r wsp:rsidR="00EA0B64">
         <w:tab/>
       </w:r>
@@ -1061,7 +1138,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      
+      <w:r><w:rPr></w:rPr><w:t>Heroku deployable Dropwizard application using db migration, web-sockets, rate-limiting and meta-data analysis.</w:t></w:r>
     </w:p>
 
 
@@ -1077,11 +1154,11 @@
         </w:tabs>
       </w:pPr>
       <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
-        <w:t>, </w:t>
+        <w:t>Creator, </w:t>
       </w:r>
       
         <w:r wsp:rsidR="009452CA" wsp:rsidRPr="00606071">
-          <w:t>secret side project</w:t>
+          <w:t>Full-stack SAAS messaging and NLP project</w:t>
         </w:r>
       
       <w:r wsp:rsidR="00EA0B64">
@@ -1100,7 +1177,7 @@
           <w:sz-cs w:val="20"/>
         </w:rPr>
       </w:pPr>
-      
+      <w:r><w:rPr></w:rPr><w:t>Full stack SAAS project using Spring Boot, Play, Cassandra, MySql, Liquibase, jsp and Vue.js</w:t></w:r>
     </w:p>
 
 
@@ -1215,7 +1292,130 @@
 
       
 
+      <wx:sub-section>
+
+      <wx:pBdrGroup>
+        <wx:borders>
+          <wx:top wx:val="solid" wx:bdrwidth="15" wx:space="1" wx:color="EEEEEE"/>
+        </wx:borders>
+        <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00693C5A" wsp:rsidP="00C146CA">
+          <w:pPr>
+            <w:pStyle w:val="Heading1"/>
+            <w:ind w:left="-720"/>      
+          </w:pPr>
+          <w:r>
+            <w:pict>
+              <w:binData w:name="wordml://03000016.png" xml:space="preserve">iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAIAAADYYG7QAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAArlJREFUeNrsl91T2kAQwEMIIYQQPhoDWlBaYDogOD7UGTu2//9THS3WMopQNUoIUSEkIcZ8NJcp0I44ggTIQ+7lcpvM3i+7e7t7PtM0ITcNGHLZ8IA8IA/IA/KAPCAPyAPygFw2EKcUGXz9tHknGAiORTYyWTqBvk2Pz5meWmgcHt8KY00+fC3/uZiEV+Wy7mUb0Pgj6WQsFvBBkCl3GjVuZTHU42TdmnCqkP9U3v1SSQetlX7fulkRkNYRHq3JT0Rxe02mSECkqQNjJUDGtSTbYRNL/ZUQqH1WVEVYAZDWrrF9yxIwEU2NQkpWwIRi5NKBhPr3c+7JMk84m8sOdT2wom7zROHl5iHtvvqLAdEToAuVzaE1DIbhn4CQjKNitwd+Gg3jOLJwIOWievIAjEO+L5ZSIz0a2xE08PDEN6r86Gt/iN4qlNLkolym3Z4c3kggdMLrpdy/27Q4cVKm1Qdco3p0ITuRqbW7+vEZI+kTXgViO3vlxGtWNuR242edGZiQP1o+qFBzWkht/p5IgwSpaWjAHngyv70GcpQuctzcMSQr6jNZKL1b/EjiM/gbR5BFHnsYnYnG8lqzL4IZIxJu6IeUxtG1nTwjVBpxAxC2SYXs+EAwGHIDkBWpU++zFCDhjJXs8kvEXQFk3A3sYkvQHxBXAMEhvw1iGM66DPb53oSvce0+SGXBUMxJoCC9/+3gayYyMxNbq/d0UIOpTcJJIFVi+B4vyLbZDbUrarMdG5zO4c60Hzhm3bAGkCldnVaHsgHz44gB5SxCr6eyG0n0ZTViRwL+CgSJ6fjnq/bjQhtOxCg6GSUJcgynivzlea0lWbbE3m3vb8cdAnrBhQrbvmqxXP/xdd8FEjt7pQQCLRTof7I21xUVWX+uyk/E06ViZuoO1qmr9LgXE2TVHLYEM7TSo/FHgAEAC/8S0Mwjye0AAAAASUVORK5CYII=</w:binData>
+              <v:shape id="_x0000_i1026" type="#_x0000_t75" style="width:31.5pt;height:31.5pt">
+                <v:imagedata src="wordml://03000016.png" o:title="fa-bicycle"/>
+              </v:shape>
+            </w:pict>
+          </w:r>
+          <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+            <w:t>REFERENCES</w:t>
+          </w:r>
+        </w:p>
+      </wx:pBdrGroup>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Chris Mowforth</w:t>
+      </w:r>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>??? — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
       
+    </w:p>
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Kenneth Morrison</w:t>
+      </w:r>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>??? — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+  </wx:sub-section>
+
+
+  <wx:sub-section>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA" wsp:rsidRDefault="00606071" wsp:rsidP="00E578D4">
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:tabs>
+          <w:tab w:val="right" w:pos="9360"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:t>Damian Dalton</w:t>
+      </w:r>
+      <w:r wsp:rsidR="00EA0B64">
+        <w:tab/>
+      </w:r>
+      <w:r wsp:rsidR="00C146CA" wsp:rsidRPr="00C146CA">
+        <w:rPr>
+          <w:rStyle w:val="FromTo"/>
+        </w:rPr>
+        <w:t>??? — Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p wsp:rsidR="00C146CA" wsp:rsidRPr="000A3AF0" wsp:rsidRDefault="00C146CA" wsp:rsidP="00C146CA">
+      <w:pPr>
+        <w:rPr>
+          <w:sz-cs w:val="20"/>
+        </w:rPr>
+      </w:pPr>
+      
+    </w:p>
+  </wx:sub-section>
+
+
+</wx:sub-section>
+
 
       
 

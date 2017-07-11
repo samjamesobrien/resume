@@ -3,9 +3,9 @@ meta:
   version: 0.4.0
 name: 'Sam O''Brien'
 info:
-  label: 'Software Engineer Team Lead'
+  label: 'Software Engineer'
   class: 'Software Engineer'
-  brief: '**Principal full-stack engineer with product ownership & team lead responsibilities** focused on leading by example, coordination & continuous code integration, forward thinking design & innovation, best practices and continuous improvement following the Kaizen principle'
+  brief: '**Full-stack engineer with product ownership and team lead responsibilities** focused on leading by example, active co-ordination and continuous integration, forward thinking design and innovation, best practices and continuous improvement following the Kaizen principle'
   quote: 'If it''s worth doing it''s worth designing'
 contact:
   website: 'https://github.com/samjamesobrien'
@@ -19,13 +19,13 @@ location:
   code: D7
   country: Ireland
 employment:
-  summary: '7 years of design, leadership and software engineering experience'
+  summary: '7 years of combined design, leadership and software engineering experience.'
   history:
     -
       employer: 'VSware / Visma'
       url: 'https://www.visma.com/'
       position: 'Senior software engineer'
-      summary: 'Senior full-stack engineer with product ownership, team lead & development responsibilities. This role includes overseas travel to meet with 3rd party services for API negotiations, writing and managing stories from requirements to completion, managing development resources and several solo-developed revenue generating micro-services. I also pushed for and introduced effective data validation patterns: On the JS side, REST API validation and tightly constrained DB cardinality leading to very high quality data and natural prevention of bad states.'
+      summary: 'Senior full-stack engineer with product ownership, team lead and development responsibilities. This role includes overseas travel to meet with 3rd party services for API negotiations, writing and managing stories from requirements to completion, managing development resources and several solo-developed revenue generating micro-services. I also pushed for and introduced effective data validation patterns: On the JS side, REST API validation and tightly constrained DB cardinality leading to very high quality data and natural prevention of bad states.'
       start: 2015-07
       keywords:
         - Agile
@@ -54,8 +54,8 @@ employment:
         - 'stakeholder management'
       highlights:
         - 'Solo-developer of a revenue generating micro-service based integration with Microsoft Active Directory and Office 365 with yearly subscription fee of 1-2k per customer depending on features'
-        - 'Lead developer & Product owner of a major piece of employee planning and cost management software developed with a team of 5, managing dynamic requirements changes. Featuring strict validation, natural cardinality, persistent programming patterns, caching and completely validated DTOs in Spring, JSP, Rivets and MySql'
-        - 'Product owner of all 3rd party integrations including Oauth & Saml 2.0 authenticated single sign on, and data importation and marshalling'
+        - 'Lead developer and Product owner of a major piece of employee planning and cost management software developed with a team of 5, managing dynamic requirements changes. Featuring strict validation, natural cardinality, persistent programming patterns, caching and completely validated DTOs in Spring, JSP, Rivets and MySql'
+        - 'Product owner of all 3rd party integrations including Oauth and Saml 2.0 authenticated single sign on, and data importation and marshalling'
         - 'Pushed new validation and development patterns focused on the Kaizen principle of continuous improvement which were widely adopted by the team'
     -
       employer: Logentries
@@ -92,7 +92,7 @@ employment:
     -
       employer: 'Flanagan Architects'
       url: 'http://www.flanaganarchitects.ie/'
-      position: 'Draughtsman & Administration'
+      position: 'Draughtsman and Administration'
       summary: 'Contract for project in London, draughtsman, coordination and administration responsibilities.'
       start: 2012-02
       end: 2012-08
@@ -109,22 +109,22 @@ employment:
         - administration
     -
       employer: '3D Architects'
-      position: 'Draughtsman & Administration'
-      summary: 'Work included producing planning permission and other legal applications, design and technical documentation to strict legal & design requirements.'
+      position: 'Draughtsman and Administration'
+      summary: 'Work included producing planning permission and other legal applications, design and technical documentation to strict legal and design requirements.'
       start: 2010-07
       end: 2011-01
     -
       employer: 'Flanagan Architects'
       url: 'http://www.flanaganarchitects.ie/'
-      position: 'Draughtsman & Administration'
-      summary: 'Work included producing planning permission and other legal applications, design and technical documentation to strict legal & design requirements.'
+      position: 'Draughtsman and Administration'
+      summary: 'Work included producing planning permission and other legal applications, design and technical documentation to strict legal and design requirements.'
       start: 2007-06
       end: 2008-06
 projects:
   -
     title: 'RE2 for java'
-    category: FOSS
-    role: contributor
+    category: 'Open Source'
+    role: Contributor
     url: 'https://github.com/rapid7/re2-java'
     repo: 'https://github.com/rapid7/re2-java'
     description: 'The first JNI port of Google''s C++ RE2 library, now in maintenance only mode due to Google''s release of an equivalent library.'
@@ -137,8 +137,33 @@ projects:
       - REGEX
   -
     title: trade-processor
+    url: 'https://github.com/samjamesobrien/trade_processor'
+    repo: 'https://github.com/samjamesobrien/trade_processor'
+    category: 'Personal Project'
+    role: Creator
+    summary: 'Heroku deployable Dropwizard application using db migration, web-sockets, rate-limiting and meta-data analysis.'
+    description: "Produced as part of a coding challenge, this is a heroku deployable stand-alone jar which features a simple html front-end connecting to a web-socket to extract meta-data about trading messages.\nThe UI updates automatically with the changing data via the socket.\nFlyway was used for migration and the project is set up to deploy to Heroku and run Flyway via a maven goal."
+    keywords:
+      - java
+      - Dropwizard
+      - 'web sockets'
+      - Flyway
+      - Heroku
+      - MySql
   -
-    title: 'secret side project'
+    title: 'Full-stack SAAS messaging and NLP project'
+    category: 'Personal Project'
+    role: Creator
+    repo: 'private repo available to view by request'
+    description: "Web-application with Spring boot for security, roles and .jsp processing, Play application for message ingestion and retrieval, Liquibase for DB migration.\nCurrently facilitates storage and retrieval of messages and a pre-defined lexicon, user log in and roles etc.\nIt is planned that this project will feature a Cassandra DB for message retrieval optimised for target and sender UUID indexing by separate tables. Cassandras ordered index keys combined with a timestamp key will allow fast retrieval of messages for a given sender for a time frame and for a given receiver for a given timeframe. This optimisation due to the TRIE like structure of Cassandra nodes requires two seperate tables.\nIt is planned to perform sentiment analysis on messages post natural language processing, tokenisation and storage of TF/IDF vectors.\nMonetization strategies include premium messaging features and API exposure for the NLP and Sentiment analysis mechanisms.\nHosting will allow horizontal scaling and automation, I plan to use Digital Ocean for this project and will have to identify suitable tools at that stage."
+    summary: 'Full stack SAAS project using Spring Boot, Play, Cassandra, MySql, Liquibase, jsp and Vue.js'
+    keywords:
+      - java
+      - Spring
+      - Vue.js
+      - Liquibase
+      - Cassandra
+      - Play
 skills:
   sets:
     -
@@ -147,6 +172,7 @@ skills:
       skills:
         - Spring
         - 'Spring boot'
+        - 'Spring beans'
         - Dropwizard
         - Play
         - Jackson
@@ -159,15 +185,58 @@ skills:
         - 'No SQL'
         - 'Database normalisation'
         - 'Schema design'
+        - 'Natural cardinality'
         - Cassandra
         - h2
         - mySql
+        - Guice
+        - IOC
+        - AOP
+        - JNI
+        - Java
+        - JVM
+    -
+      name: 'Front web development'
+      level: good
+      skills:
+        - Vue.js
+        - PEG.js
+        - .jsp
+        - bower
+        - yarn
+        - npm
+        - node.js
+        - html
+        - css
+        - bootstrap
+    -
+      name: Ops
+      level: intermediate
+      skills:
+        - Jenkins
+        - bash
+        - 'midnight commander'
+        - ssh
+        - 'apache benchmark'
+        - maven
+        - 'database migration'
+        - Liquibase
+        - Flyway
+        - Heroku
+        - AWS
+        - Linux
+        - Chef
+        - SQS
   list:
-    - {}
+    -
+      name: Java
+      id: '1'
+      summary: 'Java has been my primary language since 2014, I have implemented numerous asynchronous performant services in several frameworks and as standalone jars without frameworks. I am deeply familiar with inversion of control in Guice and Spring, and Aspect oriented programming. I have an excellent knowledge of Java 8, the stream and functional APIs, and of modern monadic promise patterns in Java 8 and the Play java promise api, a Java interface with the Scala promise api.'
+      proof: 'https://github.com/samjamesobrien'
 education:
-  summary: ""
+  summary: 'Masters level education in Computer Science'
   level: 'Masters degree'
-  degree: 'B.Sc Architectural Science & M.Sc Computer Science'
+  degree: 'M.Sc Computer Science'
   history:
     -
       institution: 'University College Dublin'
@@ -176,7 +245,7 @@ education:
       start: 2012-09
       end: 2014-01
       grade: '4.0'
-      summary: '1st class Honors degree in Computer Science.'
+      summary: '1st class Honors degree in Computer Science. Recipient of commendation from the Dean of the course.'
       curriculum:
         - Java
         - C
@@ -185,13 +254,41 @@ education:
         - 'Database design'
         - 'Software Engineering'
         - 'Natural language processing'
-        - 'Search aggregation & N-Dimensional clustering'
+        - 'Search aggregation and N-Dimensional clustering'
     -
       institution: 'University College Dublin'
       title: 'B.Sc Architectural Science'
       url: 'https://www.ucd.ie/'
       start: 2006-09
       end: 2010-07
+references:
+  -
+    name: 'Chris Mowforth'
+    flavor: 'Senior Engineer - Rapid 7'
+    private: false
+    contact:
+      -
+        label: 'personal email'
+        flavor: email
+        value: chris@mowforth.com
+  -
+    name: 'Kenneth Morrison'
+    flavor: 'Principal - Morrison Consulting'
+    private: false
+    contact:
+      -
+        label: 'personal email'
+        flavor: email
+        value: kmorrison@morrisonconsulting.com
+  -
+    name: 'Damian Dalton'
+    flavor: 'Director MSc. Computer Science, Senior Lecturer - UCD'
+    private: true
+    contact:
+      -
+        label: 'work email'
+        flavor: email
+        value: damian.dalton@ucd.ie
 languages:
   -
     language: English
