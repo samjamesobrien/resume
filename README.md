@@ -51,18 +51,8 @@ Work included producing planning permission and other legal applications, design
 
 ### University College Dublin (2012-09 — 2014-01)
 
-
+MSc. Computer Science - 1st (4.0)
 
 ### University College Dublin (2006-09 — 2010-07)
 
-
-
-
-
-
-
-
-
-
-
-
+BSc. Architectural Science

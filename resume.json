@@ -87,14 +87,14 @@
         "C",
         "C++",
         "Ruby",
-        "Webb design",
+        "Web design",
         "Database design",
         "Software Engineering",
         "Natural language processing",
         "Search aggregation and N-Dimensional clustering"
       ],
-      "startDate": "2012-09",
-      "endDate": "2014-01"
+      "startDate": "2012-09-01",
+      "endDate": "2014-01-01"
     },
     {
       "institution": "University College Dublin",
@@ -106,8 +106,8 @@
   ],
   "projects": [
     {
-      "start": "2014",
-      "end": "2015",
+      "startDate": "2014-09-01",
+      "endDate": "2015-01-01",
       "name": "RE2 for java",
       "type": "Open Source",
       "roles": ["Contributor"],
@@ -117,8 +117,8 @@
       "keywords": ["java", "C++", "JNI", "RE2", "REGEX"]
     },
     {
-      "start": "2015",
-      "end": "2015",
+      "startDate": "2015-06-11",
+      "endDate": "2015-06-15",
       "name": "trade-processor",
       "url": "https://github.com/samjamesobrien/trade_processor",
       "type": "Personal Project",
@@ -128,7 +128,7 @@
       "keywords": ["java", "Dropwizard", "web sockets", "Flyway", "Heroku", "MySql"]
     },
     {
-      "start": "2017-03",
+      "startDate": "2017-03-01",
       "name": "[private repo] Full-stack SAAS messaging and NLP project",
       "type": "Personal Project",
       "roles": ["Creator"],
@@ -176,7 +176,7 @@
     },
     {
       "name": "Front web development",
-      "level": "good",
+      "level": "Advanced",
       "keywords": [
         "Vue.js",
         "PEG.js",
@@ -221,12 +221,12 @@
   ],
   "references": [
     {
-      "name": "Chris Mowforth | Senior Engineer - Rapid 7 | chris@mowforth.com",
-      "reference": ""
+      "name": "Chris Mowforth",
+      "reference": "Senior Engineer - Rapid 7 | chris@mowforth.com"
     },
     {
-      "name": "Kenneth Morrison | Principal - Morrison Consulting | kmorrison@morrisonconsulting.com",
-      "reference": ""
+      "name": "Kenneth Morrison",
+      "reference": "Principal - Morrison Consulting | kmorrison@morrisonconsulting.com"
     }
   ]
 }
