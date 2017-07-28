@@ -1,10 +1,10 @@
 Sam O&#x27;Brien
 ============
-Email: samjamesobrien@gmail.com
 
-Web: https://github.com/samjamesobrien
 
-**Full-stack engineer with product ownership and team lead responsibilities** focused on leading by example, active co-ordination and continuous integration, forward thinking design and innovation, best practices and continuous improvement following the Kaizen principle
+
+
+
 
 ## SKILLS
 
@@ -45,41 +45,15 @@ Work included producing planning permission and other legal applications, design
 Work included producing planning permission and other legal applications, design and technical documentation to strict legal and design requirements.
 
 
-## PROJECTS
-
-### *Contributor*, [RE2 for java](https://github.com/rapid7/re2-java) (2014-01 — 2015-01)
-
-The first JNI port of Google's C++ RE2 library, now in maintenance only mode due to Google's release of an equivalent library.
-Implemented named capture groups as an extension of indexed capture groups in the library to facilitate same in Logentries query language.
-
-### *Creator*, [trade-processor](https://github.com/samjamesobrien/trade_processor) (2015-01 — 2015-01)
-
-Produced as part of a coding challenge, this is a heroku deployable stand-alone jar which features a simple html front-end connecting to a web-socket to extract meta-data about trading messages.
-The UI updates automatically with the changing data via the socket.
-Flyway was used for migration and the project is set up to deploy to Heroku and run Flyway via a maven goal.
-Heroku deployable Dropwizard application using db migration, web-sockets, rate-limiting and meta-data analysis.
-
-### *Creator*, [private repo] Full-stack SAAS messaging and NLP project (2017-03 — Present)
-
-Web-application with Spring boot for security, roles and .jsp processing, Play application for message ingestion and retrieval, Liquibase for DB migration.
-Currently facilitates storage and retrieval of messages and a pre-defined lexicon, user log in and roles etc.
-It is planned that this project will feature a Cassandra DB for message retrieval optimised for target and sender UUID indexing by separate tables. Cassandras ordered index keys combined with a timestamp key will allow fast retrieval of messages for a given sender for a time frame and for a given receiver for a given timeframe. This optimisation due to the TRIE like structure of Cassandra nodes requires two seperate tables.
-It is planned to perform sentiment analysis on messages post natural language processing, tokenisation and storage of TF/IDF vectors.
-Monetization strategies include premium messaging features and API exposure for the NLP and Sentiment analysis mechanisms.
-Hosting will allow horizontal scaling and automation, I plan to use Digital Ocean for this project and will have to identify suitable tools at that stage.
-Full stack SAAS project using Spring Boot, Play, Cassandra, MySql, Liquibase, jsp and Vue.js
-
 
 
 ## EDUCATION
 
-### [University College Dublin](https://www.ucd.ie/) (2012-09 — 2014-01)
-
-1st class Honors degree in Computer Science. Recipient of commendation from the Dean of the course.
+### University College Dublin (2012-09 — 2014-01)
 
 
-### [University College Dublin](https://www.ucd.ie/) (2006-09 — 2010-07)
 
+### University College Dublin (2006-09 — 2010-07)
 
 
 
@@ -90,12 +64,5 @@ Full stack SAAS project using Spring Boot, Play, Cassandra, MySql, Liquibase, js
 
 
 
-## REFERENCES
-
-### *Chris Mowforth*, Senior Engineer - Rapid 7 | chris@mowforth.com (professional)
-personal email: chris@mowforth.com
-
-### *Kenneth Morrison*, Principal - Morrison Consulting | kmorrison@morrisonconsulting.com (personal)
-personal email: kmorrison@morrisonconsulting.com
 
 

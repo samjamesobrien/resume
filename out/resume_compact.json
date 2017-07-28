@@ -1,11 +1,6 @@
 {
   "basics": {
     "name": "Sam O'Brien",
-    "label": "Software Engineer",
-    "class": "Software Engineer",
-    "summary": "**Full-stack engineer with product ownership and team lead responsibilities** focused on leading by example, active co-ordination and continuous integration, forward thinking design and innovation, best practices and continuous improvement following the Kaizen principle",
-    "website": "https://github.com/samjamesobrien",
-    "email": "samjamesobrien@gmail.com",
     "location": {
       "address": "Sam O'Brien\n21 Block A\nSmithfield Market\nDublin 7\nDublin",
       "postalCode": "D7",
